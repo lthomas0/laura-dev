@@ -1,5 +1,6 @@
 {
   "name": "dev-portfolio",
+  "homepage": "https://lthomas0.github.io/laura-dev",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -9,7 +10,7 @@
     "react-scripts": "1.0.17"
   },
   "scripts": {
-    "deploy" : "npm run build&&gh-pages -d build",
+    "deploy": "npm run build&&gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
