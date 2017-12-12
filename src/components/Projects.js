@@ -18,7 +18,7 @@ export default class Projects extends Component {
     <p> Generator that chooses what pizza to order using HTML, CSS, AngularJS. Click title for live preview.</p>
   </div>
   <div id="my-links" className="col-md-4 well">
-  <h3 className="grow"><a href="https://my-news-links.herokuapp.com/" rel="noopener noreferrer" target="_blank" id="mylinks">myLinks</a> </h3>
+  <h3 className="grow"><a href="https://my-news-links.herokuapp.com/index.html" rel="noopener noreferrer" target="_blank" id="mylinks">myLinks</a> </h3>
   <p>Grid of my favorite news sites and sources using HTML, CSS, SCSS, Babel, Vue.js. Click title for live preview.</p>
 </div>
 <div id="react-shop" className="col-md-4 well">
