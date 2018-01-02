@@ -4,7 +4,9 @@ body {
   font-family: sans-serif;
   padding: 15px 15px;
   font-family: 'Inconsolata', monospace;
-  background-image: url('http://res.cloudinary.com/ddaei4bhd/image/upload/c_scale,w_274/v1512865140/keyboard5_x3tkre.png');
+  /* background-image: url('http://res.cloudinary.com/ddaei4bhd/image/upload/c_scale,w_274/v1512865140/keyboard5_x3tkre.png'); */
+  background-color: #333333;
+  color: #fdfdea;
   background-size: 150px;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -39,14 +41,14 @@ h2.grow:hover{
 
 #menu1:hover{
       text-decoration:line-through;
-    color: #e863b7;
+    color: #808080;
      font-family: 'VT323', monospace;
      font-size: 1em;
 
 }
 #menu2:hover{
 text-decoration:line-through;
-color: #ffdd49;
+color: #808080;
  font-family: 'VT323', monospace;
  font-size: 1em;
 
@@ -54,14 +56,13 @@ color: #ffdd49;
 
 #menu3:hover{
   text-decoration:line-through;
-  color: #3dffc4;
+  color: #808080;
    font-family: 'VT323', monospace;
    font-size: 1em;
 }
-
 #menu4:hover {
 text-decoration:line-through;
-color: #3dd1ff;
+color: #808080;
 
 font-family: 'VT323', monospace;
 font-size: 1em;
@@ -77,14 +78,21 @@ h3.grow:hover { transform: scale(1.1); }
 }
 #moreavail {
   font-family: 'Bungee', cursive;
-  font-size: 1em;
+  font-size: .85em;
   text-align: center;
-  color: white;
+  color: #fdfdea;
 }
+.project1, .project2, .project3, .project4, .project5, .project6, .project7, .project8, .project9, .project10, .project11 {
+  color: #333333;
 
+}
 #coming-soon{
-background-color: #f4265a;
-color: white;
+  background-image: linear-gradient(-20deg, #00cdac 0%, #8ddad5 100%);
+  color: #fdfdea;
+}
+#tinyText {
+  text-align:center;
+  font-size: 1.2em;
 }
 h4{
   font-family: 'Bungee Shade', cursive;
@@ -96,74 +104,80 @@ h5{
 #menu2.grow { transition: all 0.2s ease-in-out; }
 #menu2.grow:hover { transform: scale(1.1); }
 
+/* custom CSS for project boxes*/
 #pizza, #airbnb, #cartui, #mylinks, #reactshop, #jquery, #todolist, #holiday, #green, #donut, #susan{
-  background-color: #2e3a5a;
-  color: white;
+  background-image: linear-gradient(-20deg, #00cdac 0%, #8ddad5 100%);
+  color: #333333;
+  -webkit-text-stroke-width: .8px;
+  -webkit-text-stroke-color:  #fdfdea;
 
 }
 
 #project-green{
-  background-color: #a348ff;
-
-  color: #181658;
+  background-color: #F5FFFA;
+  color: #333333;
 }
+
 #diabetic-donut {
-  background-color: #db69d6;
-  color: #181658;
-
+  background-color: #F5FFFA;
+  color: #333333;
 }
+
 #cart-ui{
-  background-color: #ff6f39;
-  color: #181658;
-
+  background-color: #F5FFFA;
+  color: #333333;
 }
+
 #pizza-picker{
-background-color: #ffbf00;
-color: #181658;
+  background-color: #F5FFFA;
+  color: #333333;
 }
 
 #airbnb-splash{
- background-color: #fc5757;
-  color: #181658;
-
+  background-color: #F5FFFA;
+  color: #333333;
 }
 #my-links{
-    background-color: #27dc36;
-  color: #181658;
-
+  background-color: #F5FFFA;
+  color: #333333;
 }
 
 #react-shop{
-background-color: #0daf99;
-  color: #181658;
+  background-color: #F5FFFA;
+  color: #333333;
 }
+
 #jquery-img{
-  background-color: #3fc3f5;
-  color: #1816580;
+  background-color: #F5FFFA;
+  color: #333333;
 }
+
 #react-todo-list{
-  background-color: #288bb1;
-  color: #181658;
+  background-color: #F5FFFA;
+  color: #333333;
 }
+
 #holiday-newsletter{
-  background-color: #6f69cc;
-  color: #181658;
+  background-color: #F5FFFA;
+  color: #333333;
 }
 
 #susan-dory {
-  background-color: #f0539b;
-  color: #181658;
+  background-color: #F5FFFA;
+  color: #fdfdea;
 }
-#menu{
+/*social icon links*/
+#social{
   text-align: center;
   font-family: 'VT323', monospace;
-  color: #051633;
+  color: #fdfdea;
 
 }
+
 a{
   text-align: center;
-  font-family: 'Bungee Hairline', cursive;
-  color: #051633;
+  font-family: 'Bungee', cursive;
+  color: #fdfdea;
   /*text-decoration: none*/
 }
 
@@ -178,15 +192,15 @@ h2{
 }
 
 h3{
-  color: #2e3a5a;
+  color: #fdfdea;
   font-family: 'VT323', monospace;
 }
+/*menu animation*/
 
 #menu1, #menu2, #menu3, #menu4 {
-
-
   font-family: 'Bungee', cursive;
   font-size: 1em;
+  background-image: linear-gradient(-20deg, #00cdac 0%, #8ddad5 100%);
 }
 
 /*#airbnb-splash:hover {
